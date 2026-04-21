@@ -1,0 +1,36 @@
+com.ahmadziya.notesapp.test.app-tracing-1.2.0-0 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\0fd7dbea0a071cdb91237511e819f37e\transformed\tracing-1.2.0\res
+com.ahmadziya.notesapp.test.app-profileinstaller-1.3.1-1 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\1ef1741096a74d06f8c435d311f761a8\transformed\profileinstaller-1.3.1\res
+com.ahmadziya.notesapp.test.app-core-1.6.1-2 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\39133ebfe8b68a4dfe46dccdf7a58ffc\transformed\core-1.6.1\res
+com.ahmadziya.notesapp.test.app-startup-runtime-1.1.1-3 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\431446800156e26a55ef15442a28580a\transformed\startup-runtime-1.1.1\res
+com.ahmadziya.notesapp.test.app-customview-poolingcontainer-1.0.0-4 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\4b21f4024c82e3ba794acbe504934e85\transformed\customview-poolingcontainer-1.0.0\res
+com.ahmadziya.notesapp.test.app-ui-unit-release-5 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\4c4df619917456319c5ff2acdee3da19\transformed\ui-unit-release\res
+com.ahmadziya.notesapp.test.app-lifecycle-viewmodel-savedstate-2.8.7-6 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\50ea3a046da8b867be7b026e92f58263\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
+com.ahmadziya.notesapp.test.app-lifecycle-viewmodel-release-7 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\50f9c23091207563a5c3abe64918face\transformed\lifecycle-viewmodel-release\res
+com.ahmadziya.notesapp.test.app-activity-1.9.3-8 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\5256f9f5cc71b57c446711dd424e5083\transformed\activity-1.9.3\res
+com.ahmadziya.notesapp.test.app-activity-ktx-1.9.3-9 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\57a013b4697f17756ac71d2ebc41a186\transformed\activity-ktx-1.9.3\res
+com.ahmadziya.notesapp.test.app-activity-compose-1.9.3-10 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\6eb18e7c2e35858265ee8b7dd4e7c469\transformed\activity-compose-1.9.3\res
+com.ahmadziya.notesapp.test.app-savedstate-1.2.1-11 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\6fabfb45cb5985174a07961f0cf74736\transformed\savedstate-1.2.1\res
+com.ahmadziya.notesapp.test.app-ui-text-release-12 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\772e2bbafec921c924056d82c798fe57\transformed\ui-text-release\res
+com.ahmadziya.notesapp.test.app-ui-release-13 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\7e1dae9bf97f0be94a17a2d1cc739619\transformed\ui-release\res
+com.ahmadziya.notesapp.test.app-core-1.15.0-14 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\8555b7b021667f9ef490d52847829969\transformed\core-1.15.0\res
+com.ahmadziya.notesapp.test.app-core-ktx-1.15.0-15 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\95d81d8b5aaaab5e316c152a06db9d6a\transformed\core-ktx-1.15.0\res
+com.ahmadziya.notesapp.test.app-ui-test-junit4-release-16 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\970116a33729b19c45ba50bc275d57ba\transformed\ui-test-junit4-release\res
+com.ahmadziya.notesapp.test.app-ui-util-release-17 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\98c809697306a8d94a30fed59ed88414\transformed\ui-util-release\res
+com.ahmadziya.notesapp.test.app-runtime-saveable-release-18 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\a73baaf60961df83e4eef3d802c53008\transformed\runtime-saveable-release\res
+com.ahmadziya.notesapp.test.app-runtime-release-19 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\aa5e14673837d7d640d68a2fb961b0fc\transformed\runtime-release\res
+com.ahmadziya.notesapp.test.app-lifecycle-livedata-core-2.8.7-20 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\b8f3ceb843aca0e34d28dfa89f442c07\transformed\lifecycle-livedata-core-2.8.7\res
+com.ahmadziya.notesapp.test.app-lifecycle-runtime-release-21 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\b9fc130f2bc80fb5bf67b6181358d594\transformed\lifecycle-runtime-release\res
+com.ahmadziya.notesapp.test.app-annotation-experimental-1.4.1-22 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\ba506f76433b27e71d54bcc325d79ad9\transformed\annotation-experimental-1.4.1\res
+com.ahmadziya.notesapp.test.app-lifecycle-process-2.8.7-23 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\c5cbc55d8c996d3f253c3a2cf0b6025b\transformed\lifecycle-process-2.8.7\res
+com.ahmadziya.notesapp.test.app-ui-test-release-24 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\d28d5aca56fcb54516e68c1b560e8f4d\transformed\ui-test-release\res
+com.ahmadziya.notesapp.test.app-ui-graphics-release-25 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\e0725e14ad4dad459f289174417f665e\transformed\ui-graphics-release\res
+com.ahmadziya.notesapp.test.app-ui-geometry-release-26 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\e28146d60d775c08dc66376c2b70af4e\transformed\ui-geometry-release\res
+com.ahmadziya.notesapp.test.app-core-runtime-2.2.0-27 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\e60f241d3b8ba234710d4d3d8d71956a\transformed\core-runtime-2.2.0\res
+com.ahmadziya.notesapp.test.app-savedstate-ktx-1.2.1-28 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\f0434b598a5ce5ff39b883bdb10d6488\transformed\savedstate-ktx-1.2.1\res
+com.ahmadziya.notesapp.test.app-lifecycle-viewmodel-ktx-2.8.7-29 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\f20c86324a2ee05783336a6ed3c1f705\transformed\lifecycle-viewmodel-ktx-2.8.7\res
+com.ahmadziya.notesapp.test.app-lifecycle-runtime-ktx-release-30 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\fb782ac837375a14821d53c846d5c6da\transformed\lifecycle-runtime-ktx-release\res
+com.ahmadziya.notesapp.test.app-emoji2-1.3.0-31 C:\Users\Ahmad Ziya\.gradle\caches\9.0.0\transforms\fda0b6ecaaeb5f6d98effc6b9f872db4\transformed\emoji2-1.3.0\res
+com.ahmadziya.notesapp.test.app-androidTest-32 D:\NotesApp\app\build\generated\res\resValues\androidTest\debug
+com.ahmadziya.notesapp.test.app-mergeDebugAndroidTestResources-33 D:\NotesApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.ahmadziya.notesapp.test.app-mergeDebugAndroidTestResources-34 D:\NotesApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.ahmadziya.notesapp.test.app-debugAndroidTest-35 D:\NotesApp\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
