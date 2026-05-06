@@ -10,18 +10,20 @@ data class Note(
     val reminderTime: Long? = null
 )
 
-fun NoteEntity.toNote(): Note = Note(
-    id = this.id,
-    title = this.title,
-    content = this.content,
-    timestamp = this.timestamp,
-    reminderTime = this.reminderTime
+fun Note.toEntity(): NoteEntity = NoteEntity(
+    id = id,
+    title = title,
+    content = content,
+    timestamp = timestamp,
+    reminderTime = reminderTime
 )
 
-fun Note.toEntity(): NoteEntity = NoteEntity(
-    id = this.id,
-    title = this.title,
-    content = this.content,
-    timestamp = this.timestamp,
-    reminderTime = this.reminderTime
-)
+fun NoteEntity.toNote(): Note {
+    return Note(
+        id = id,
+        title = title,
+        content = content,
+        timestamp = timestamp,
+        reminderTime = reminderTime
+    )
+}

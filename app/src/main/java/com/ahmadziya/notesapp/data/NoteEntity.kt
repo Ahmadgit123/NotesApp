@@ -3,7 +3,6 @@ package com.ahmadziya.notesapp.data
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-
 @Entity(tableName = "notes")
 data class NoteEntity(
     @PrimaryKey(autoGenerate = true)
@@ -11,5 +10,5 @@ data class NoteEntity(
     val title: String,
     val content: String,
     val timestamp: Long = System.currentTimeMillis(),
-    val reminderTime: Long? = null
+    val reminderTime: Long?
 )

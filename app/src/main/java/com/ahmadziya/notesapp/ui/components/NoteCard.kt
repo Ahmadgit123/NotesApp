@@ -39,7 +39,25 @@ fun NoteCard(
     val reminderFormatter = remember { SimpleDateFormat("dd MMM, hh:mm a", Locale.getDefault()) }
 
     if (showDeleteConfirm) {
-
+        AlertDialog(
+            onDismissRequest = { showDeleteConfirm = false },
+            title = { Text("Delete Note?") },
+                       confirmButton = {
+                TextButton(
+                    onClick = {
+                        onDelete(note)
+                        showDeleteConfirm = false
+                    }
+                ) {
+                    Text("Delete", color = MaterialTheme.colorScheme.error)
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = { showDeleteConfirm = false }) {
+                    Text("Cancel")
+                }
+            }
+        )
     }
 
     Card(

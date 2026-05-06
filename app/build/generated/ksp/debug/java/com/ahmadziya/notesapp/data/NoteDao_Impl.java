@@ -9,11 +9,13 @@ import androidx.room.EntityDeletionOrUpdateAdapter;
 import androidx.room.EntityInsertionAdapter;
 import androidx.room.RoomDatabase;
 import androidx.room.RoomSQLiteQuery;
+import androidx.room.SharedSQLiteStatement;
 import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
 import java.lang.Class;
 import java.lang.Exception;
+import java.lang.Integer;
 import java.lang.Long;
 import java.lang.Object;
 import java.lang.Override;
@@ -35,9 +37,11 @@ public final class NoteDao_Impl implements NoteDao {
 
   private final EntityInsertionAdapter<NoteEntity> __insertionAdapterOfNoteEntity;
 
-  private final EntityDeletionOrUpdateAdapter<NoteEntity> __deletionAdapterOfNoteEntity;
-
   private final EntityDeletionOrUpdateAdapter<NoteEntity> __updateAdapterOfNoteEntity;
+
+  private final SharedSQLiteStatement __preparedStmtOfUpdateNoteFields;
+
+  private final SharedSQLiteStatement __preparedStmtOfDeleteById;
 
   public NoteDao_Impl(@NonNull final RoomDatabase __db) {
     this.__db = __db;
@@ -62,19 +66,6 @@ public final class NoteDao_Impl implements NoteDao {
         }
       }
     };
-    this.__deletionAdapterOfNoteEntity = new EntityDeletionOrUpdateAdapter<NoteEntity>(__db) {
-      @Override
-      @NonNull
-      protected String createQuery() {
-        return "DELETE FROM `notes` WHERE `id` = ?";
-      }
-
-      @Override
-      protected void bind(@NonNull final SupportSQLiteStatement statement,
-          @NonNull final NoteEntity entity) {
-        statement.bindLong(1, entity.getId());
-      }
-    };
     this.__updateAdapterOfNoteEntity = new EntityDeletionOrUpdateAdapter<NoteEntity>(__db) {
       @Override
       @NonNull
@@ -95,6 +86,22 @@ public final class NoteDao_Impl implements NoteDao {
           statement.bindLong(5, entity.getReminderTime());
         }
         statement.bindLong(6, entity.getId());
+      }
+    };
+    this.__preparedStmtOfUpdateNoteFields = new SharedSQLiteStatement(__db) {
+      @Override
+      @NonNull
+      public String createQuery() {
+        final String _query = "UPDATE notes SET title = ?, content = ?, timestamp = ?, reminderTime = ? WHERE id = ?";
+        return _query;
+      }
+    };
+    this.__preparedStmtOfDeleteById = new SharedSQLiteStatement(__db) {
+      @Override
+      @NonNull
+      public String createQuery() {
+        final String _query = "DELETE FROM notes WHERE id = ?";
+        return _query;
       }
     };
   }
@@ -118,16 +125,17 @@ public final class NoteDao_Impl implements NoteDao {
   }
 
   @Override
-  public Object deleteNote(final NoteEntity note, final Continuation<? super Unit> $completion) {
-    return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
+  public Object updateNote(final NoteEntity note, final Continuation<? super Integer> $completion) {
+    return CoroutinesRoom.execute(__db, true, new Callable<Integer>() {
       @Override
       @NonNull
-      public Unit call() throws Exception {
+      public Integer call() throws Exception {
+        int _total = 0;
         __db.beginTransaction();
         try {
-          __deletionAdapterOfNoteEntity.handle(note);
+          _total += __updateAdapterOfNoteEntity.handle(note);
           __db.setTransactionSuccessful();
-          return Unit.INSTANCE;
+          return _total;
         } finally {
           __db.endTransaction();
         }
@@ -136,18 +144,63 @@ public final class NoteDao_Impl implements NoteDao {
   }
 
   @Override
-  public Object updateNote(final NoteEntity note, final Continuation<? super Unit> $completion) {
+  public Object updateNoteFields(final int id, final String title, final String content,
+      final long timestamp, final Long reminderTime, final Continuation<? super Unit> $completion) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       @NonNull
       public Unit call() throws Exception {
-        __db.beginTransaction();
+        final SupportSQLiteStatement _stmt = __preparedStmtOfUpdateNoteFields.acquire();
+        int _argIndex = 1;
+        _stmt.bindString(_argIndex, title);
+        _argIndex = 2;
+        _stmt.bindString(_argIndex, content);
+        _argIndex = 3;
+        _stmt.bindLong(_argIndex, timestamp);
+        _argIndex = 4;
+        if (reminderTime == null) {
+          _stmt.bindNull(_argIndex);
+        } else {
+          _stmt.bindLong(_argIndex, reminderTime);
+        }
+        _argIndex = 5;
+        _stmt.bindLong(_argIndex, id);
         try {
-          __updateAdapterOfNoteEntity.handle(note);
-          __db.setTransactionSuccessful();
-          return Unit.INSTANCE;
+          __db.beginTransaction();
+          try {
+            _stmt.executeUpdateDelete();
+            __db.setTransactionSuccessful();
+            return Unit.INSTANCE;
+          } finally {
+            __db.endTransaction();
+          }
         } finally {
-          __db.endTransaction();
+          __preparedStmtOfUpdateNoteFields.release(_stmt);
+        }
+      }
+    }, $completion);
+  }
+
+  @Override
+  public Object deleteById(final int noteId, final Continuation<? super Unit> $completion) {
+    return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
+      @Override
+      @NonNull
+      public Unit call() throws Exception {
+        final SupportSQLiteStatement _stmt = __preparedStmtOfDeleteById.acquire();
+        int _argIndex = 1;
+        _stmt.bindLong(_argIndex, noteId);
+        try {
+          __db.beginTransaction();
+          try {
+            _stmt.executeUpdateDelete();
+            __db.setTransactionSuccessful();
+            return Unit.INSTANCE;
+          } finally {
+            __db.endTransaction();
+          }
+        } finally {
+          __preparedStmtOfDeleteById.release(_stmt);
         }
       }
     }, $completion);

@@ -12,35 +12,30 @@ import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
-import com.ahmadziya.notesapp.notification.ReminderManager
-import com.ahmadziya.notesapp.data.NoteEntity
 
-// AndroidViewModel — provides Application context (needed to create database)
 class NotesViewModel(application: Application) : AndroidViewModel(application) {
 
-    // Database and DAO setup
     private val dao = NotesDatabase.getDatabase(application).noteDao()
-    private val reminderManager = ReminderManager(application)
+    private val reminderManager = com.ahmadziya.notesapp.notification.ReminderManager(application)
 
-    // Flow<List<NoteEntity>> → StateFlow<List<Note>>
-    // stateIn = converts Flow into a "hot stream" for Compose
-    // Notes always come from Room — even after app restart!
+    // Room Flow → StateFlow<List<Note>>
+    // when ever DB changes, Compose UI automatic refresh
     val notes = dao.getAllNotes()
-        .map { entityList -> entityList.map { it.toNote() } }
+        .map { list -> list.map { it.toNote() } }
         .stateIn(
             scope = viewModelScope,
             started = SharingStarted.WhileSubscribed(5000),
             initialValue = emptyList()
         )
 
-    // Dialog UI state
+    // Dialog state
     var showDialog = mutableStateOf(false)
         private set
 
     var editingNote = mutableStateOf<Note?>(null)
         private set
 
-    // ── DIALOG CONTROLS ───────────────────────────────────────────────────
+    // ── DIALOG CONTROLS ──────────────────────────────────────────────────
 
     fun openAddDialog() {
         editingNote.value = null
@@ -57,51 +52,56 @@ class NotesViewModel(application: Application) : AndroidViewModel(application) {
         editingNote.value = null
     }
 
-    // ── DATABASE OPERATIONS ───────────────────────────────────────────────
-
+    // ── CRUD OPERATIONS ──────────────────────────────────────────────────
 
     fun addNote(title: String, content: String, reminderTime: Long? = null) {
         if (title.isBlank() && content.isBlank()) return
         viewModelScope.launch {
-            val newNote = Note(
-                title = title.trim(),
-                content = content.trim(),
-                reminderTime = reminderTime
-            )
-            // Insert and get generated ID
-            val generatedId = dao.insertNote(newNote.toEntity())
-            
-            // Schedule reminder if set
-            if (reminderTime != null) {
-                reminderManager.scheduleReminder(newNote.copy(id = generatedId.toInt()))
+            try {
+                val note = Note(id = 0, title = title.trim(), content = content.trim(), reminderTime = reminderTime)
+                val newId = dao.insertNote(note.toEntity())
+                
+                if (reminderTime != null) {
+                    reminderManager.scheduleReminder(note.copy(id = newId.toInt()))
+                }
+            } finally {
+                closeDialog()
             }
         }
-        closeDialog()
     }
 
-    fun updateNote(note: Note, newTitle: String, newContent: String, newReminderTime: Long?) {
+    fun updateNote(note: Note, newTitle: String, newContent: String, newReminderTime: Long? = null) {
+        android.util.Log.d("NotesViewModel", "Attempting to update note with ID: ${note.id}")
         viewModelScope.launch {
-            val updatedNote = note.copy(
-                title = newTitle.trim(),
-                content = newContent.trim(),
-                timestamp = System.currentTimeMillis(),
-                reminderTime = newReminderTime
-            )
-            dao.updateNote(updatedNote.toEntity())
-            
-            // Schedule or cancel reminder
-            if (newReminderTime != null) {
-                reminderManager.scheduleReminder(updatedNote)
-            } else {
-                reminderManager.cancelReminder(note.id)
+            try {
+                val updatedNote = note.copy(
+                    title = newTitle.trim(),
+                    content = newContent.trim(),
+                    timestamp = System.currentTimeMillis(),
+                    reminderTime = newReminderTime
+                )
+                
+                // Use the standard Update method which relies on the PrimaryKey (id)
+                dao.updateNote(updatedNote.toEntity())
+                android.util.Log.d("NotesViewModel", "Database update successful for ID: ${note.id}")
+                
+                if (newReminderTime != null) {
+                    reminderManager.scheduleReminder(updatedNote)
+                } else {
+                    reminderManager.cancelReminder(note.id)
+                }
+            } catch (e: Exception) {
+                android.util.Log.e("NotesViewModel", "Update failed for ID: ${note.id}", e)
+            } finally {
+                closeDialog()
             }
         }
-        closeDialog()
     }
 
+    // ✅ BUG FIX: note.id directly pass karo — @Delete ki jagah deleteById
     fun deleteNote(note: Note) {
         viewModelScope.launch {
-            dao.deleteNote(note.toEntity())
+            dao.deleteById(note.id)
             reminderManager.cancelReminder(note.id)
         }
     }
