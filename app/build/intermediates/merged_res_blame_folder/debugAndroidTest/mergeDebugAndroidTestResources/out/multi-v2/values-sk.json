@@ -4,7 +4,7 @@
             "outputFile": "com.ahmadziya.notesapp.test.app-mergeDebugAndroidTestResources-33:/values-sk/values-sk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ahmad Ziya\\.gradle\\caches\\9.3.1\\transforms\\2b6febcfe86ecb0b04bd568caa2a4aad\\workspace\\transformed\\ui-release\\res\\values-sk\\values-sk.xml",
+                    "source": "C:\\Users\\Ahmad Ziya\\.gradle\\caches\\9.3.1\\transforms\\e3a1beff5bb2cb29c03f4ed8614774a7\\workspace\\transformed\\ui-release\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ahmad Ziya\\.gradle\\caches\\9.3.1\\transforms\\ceeba2a7b114a5c46a103eb6b9884978\\workspace\\transformed\\core-1.15.0\\res\\values-sk\\values-sk.xml",
+                    "source": "C:\\Users\\Ahmad Ziya\\.gradle\\caches\\9.3.1\\transforms\\a4772f2e060986847c613f9780f6c7d5\\workspace\\transformed\\core-1.15.0\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

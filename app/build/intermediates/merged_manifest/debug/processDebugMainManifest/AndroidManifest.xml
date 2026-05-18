@@ -8,10 +8,8 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="35" />
 
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- INTERNET permission — API calls ke liye ZAROORI -->
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <permission
         android:name="com.ahmadziya.notesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -29,17 +27,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NotesApp" >
-
-        <!-- Reminder Broadcast Receiver -->
-        <receiver
-            android:name="com.ahmadziya.notesapp.notification.ReminderReceiver"
-            android:enabled="true"
-            android:exported="false" >
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-            </intent-filter>
-        </receiver>
-
         <activity
             android:name="com.ahmadziya.notesapp.MainActivity"
             android:exported="true"

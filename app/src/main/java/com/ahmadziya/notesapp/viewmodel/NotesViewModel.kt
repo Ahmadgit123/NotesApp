@@ -19,7 +19,7 @@ class NotesViewModel(application: Application) : AndroidViewModel(application) {
     private val reminderManager = com.ahmadziya.notesapp.notification.ReminderManager(application)
 
     // Room Flow → StateFlow<List<Note>>
-    // when ever DB changes, Compose UI automatic refresh
+    // Whenever DB changes, Compose UI automatically refreshes
     val notes = dao.getAllNotes()
         .map { list -> list.map { it.toNote() } }
         .stateIn(
@@ -98,7 +98,7 @@ class NotesViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
-    // ✅ BUG FIX: note.id directly pass karo — @Delete ki jagah deleteById
+    // ✅ BUG FIX: Pass note.id directly — use deleteById instead of @Delete
     fun deleteNote(note: Note) {
         viewModelScope.launch {
             dao.deleteById(note.id)

@@ -22,8 +22,8 @@ interface NoteDao {
     @Query("UPDATE notes SET title = :title, content = :content, timestamp = :timestamp, reminderTime = :reminderTime WHERE id = :id")
     suspend fun updateNoteFields(id: Int, title: String, content: String, timestamp: Long, reminderTime: Long?)
 
-    // ✅ BUG FIX: @Delete object match karta hai — agar id=0 ho toh fail
-    // Isliye direct SQL query use karo — ID se seedha delete
+    // ✅ BUG FIX: @Delete matches the object — if id=0, it might fail.
+    // Therefore, use a direct SQL query to delete by ID.
     @Query("DELETE FROM notes WHERE id = :noteId")
     suspend fun deleteById(noteId: Int)
 

@@ -1,5 +1,10 @@
 com.ahmadziya.notesapp
 attr alpha
+attr fastScrollEnabled
+attr fastScrollHorizontalThumbDrawable
+attr fastScrollHorizontalTrackDrawable
+attr fastScrollVerticalThumbDrawable
+attr fastScrollVerticalTrackDrawable
 attr font
 attr fontProviderAuthority
 attr fontProviderCerts
@@ -13,9 +18,14 @@ attr fontStyle
 attr fontVariationSettings
 attr fontWeight
 attr lStar
+attr layoutManager
 attr nestedScrollViewStyle
 attr queryPatterns
+attr recyclerViewStyle
+attr reverseLayout
 attr shortcutMatchRequired
+attr spanCount
+attr stackFromEnd
 attr ttcIndex
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
@@ -32,6 +42,12 @@ dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
+dimen fastscroll_default_thickness
+dimen fastscroll_margin
+dimen fastscroll_minimum_range
+dimen item_touch_helper_max_drag_scroll_per_frame
+dimen item_touch_helper_swipe_escape_max_velocity
+dimen item_touch_helper_swipe_escape_velocity
 dimen notification_action_icon_size
 dimen notification_action_text_size
 dimen notification_big_circle_margin
@@ -122,6 +138,7 @@ id info
 id inspection_slot_table_set
 id is_pooling_container_tag
 id italic
+id item_touch_helper_previous_elevation
 id line1
 id line3
 id normal
@@ -268,3 +285,4 @@ styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFallbac
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable RecyclerView android_orientation android_clipToPadding android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd

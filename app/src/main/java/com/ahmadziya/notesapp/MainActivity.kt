@@ -1,42 +1,71 @@
 package com.ahmadziya.notesapp
 
-import android.Manifest
-import android.content.pm.PackageManager
-import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.activity.result.contract.ActivityResultContracts
-import androidx.core.content.ContextCompat
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.List
+import androidx.compose.material.icons.filled.Note
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
 import com.ahmadziya.notesapp.ui.screens.NotesScreen
+import com.ahmadziya.notesapp.ui.screens.PostsScreen
 import com.ahmadziya.notesapp.ui.theme.NotesAppTheme
 
+// Bottom navigation screens
+sealed class Screen(val route: String, val label: String, val icon: ImageVector) {
+    object Notes : Screen("notes", "My Notes", Icons.Default.Note)
+    object Posts : Screen("posts", "API Posts", Icons.Default.List)
+}
+
 class MainActivity : ComponentActivity() {
-
-    private val requestPermissionLauncher = registerForActivityResult(
-        ActivityResultContracts.RequestPermission()
-    ) { _ -> }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-
-        askNotificationPermission()
-
         setContent {
             NotesAppTheme {
-                NotesScreen()
+                MainApp()
             }
         }
     }
+}
 
-    private fun askNotificationPermission() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS) !=
-                PackageManager.PERMISSION_GRANTED
-            ) {
-                requestPermissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
+@Composable
+fun MainApp() {
+    // State to track the selected screen
+    var selectedScreen by remember { mutableStateOf<Screen>(Screen.Notes) }
+
+    val tabs = listOf(Screen.Notes, Screen.Posts)
+
+    Scaffold(
+        bottomBar = {
+            NavigationBar {
+                tabs.forEach { screen ->
+                    NavigationBarItem(
+                        selected = selectedScreen == screen,
+                        onClick  = { selectedScreen = screen },
+                        icon     = {
+                            Icon(
+                                imageVector        = screen.icon,
+                                contentDescription = screen.label
+                            )
+                        },
+                        label = { Text(screen.label) }
+                    )
+                }
+            }
+        }
+    ) { innerPadding ->
+        Box(modifier = Modifier.padding(innerPadding)) {
+            // Display the selected screen
+            when (selectedScreen) {
+                Screen.Notes -> NotesScreen()
+                Screen.Posts -> PostsScreen()
             }
         }
     }

@@ -1,54 +1,61 @@
-com.ahmadziya.notesapp-sqlite-2.4.0-0 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\0bc573d568a0be8237434f115e0b916e\workspace\transformed\sqlite-2.4.0\res
-com.ahmadziya.notesapp-ui-tooling-preview-release-1 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\1047159e67a81df50cde7bcadecc41df\workspace\transformed\ui-tooling-preview-release\res
-com.ahmadziya.notesapp-ui-geometry-release-2 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\208f268e107ce5bfef0e6988827f146b\workspace\transformed\ui-geometry-release\res
-com.ahmadziya.notesapp-ui-release-3 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\2b6febcfe86ecb0b04bd568caa2a4aad\workspace\transformed\ui-release\res
-com.ahmadziya.notesapp-lifecycle-process-2.8.7-4 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\2dd70d92ebfe09ee5b855bfae277d126\workspace\transformed\lifecycle-process-2.8.7\res
-com.ahmadziya.notesapp-activity-1.9.3-5 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\3b981c35cbdc774cb38fca0ada012e2c\workspace\transformed\activity-1.9.3\res
-com.ahmadziya.notesapp-sqlite-framework-2.4.0-6 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\4266773dda153daa56aa70e66a037096\workspace\transformed\sqlite-framework-2.4.0\res
-com.ahmadziya.notesapp-runtime-saveable-release-7 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\48de69bc5ee3428f322897b2fbd240ab\workspace\transformed\runtime-saveable-release\res
-com.ahmadziya.notesapp-lifecycle-livedata-core-2.8.7-8 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\4a89be1a66506c10dce24612d62a4644\workspace\transformed\lifecycle-livedata-core-2.8.7\res
-com.ahmadziya.notesapp-room-ktx-2.6.1-9 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\4bc6e6f539856c1c284196d3e781bf55\workspace\transformed\room-ktx-2.6.1\res
-com.ahmadziya.notesapp-lifecycle-viewmodel-ktx-2.8.7-10 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\519829c30c41130bb734dfe7defd2221\workspace\transformed\lifecycle-viewmodel-ktx-2.8.7\res
-com.ahmadziya.notesapp-ui-util-release-11 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\54c4365e02ec8a23943fac1924a4aa2a\workspace\transformed\ui-util-release\res
-com.ahmadziya.notesapp-foundation-release-12 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\54dc530508064848b3b5142b6d2d565f\workspace\transformed\foundation-release\res
-com.ahmadziya.notesapp-startup-runtime-1.1.1-13 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\5a13be85644b25069f06ea8e199f709e\workspace\transformed\startup-runtime-1.1.1\res
-com.ahmadziya.notesapp-animation-release-14 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\6327a5f1c4621ac65b1f2e10bc690f87\workspace\transformed\animation-release\res
-com.ahmadziya.notesapp-lifecycle-viewmodel-compose-release-15 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\666232c8ba3e51fbb8b861b965688efc\workspace\transformed\lifecycle-viewmodel-compose-release\res
-com.ahmadziya.notesapp-lifecycle-runtime-ktx-release-16 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\698ea9853747cf1c32a341358a80cd3d\workspace\transformed\lifecycle-runtime-ktx-release\res
-com.ahmadziya.notesapp-profileinstaller-1.3.1-17 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\6aafb031704247aa1a16372f6382f384\workspace\transformed\profileinstaller-1.3.1\res
-com.ahmadziya.notesapp-ui-tooling-release-18 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\6e638e90ff70b7673fef525a3b67f98c\workspace\transformed\ui-tooling-release\res
-com.ahmadziya.notesapp-ui-graphics-release-19 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\7324053f06d54f4af5a9efe17d7aab8c\workspace\transformed\ui-graphics-release\res
-com.ahmadziya.notesapp-tracing-1.2.0-20 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\782b391b711c09b86f298cf565281fbb\workspace\transformed\tracing-1.2.0\res
-com.ahmadziya.notesapp-emoji2-1.3.0-21 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\7ce32fa577fbffc18a3c9f280209efe0\workspace\transformed\emoji2-1.3.0\res
-com.ahmadziya.notesapp-material-release-22 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\815e34032a4f245e774877ca3f2afe5e\workspace\transformed\material-release\res
-com.ahmadziya.notesapp-lifecycle-viewmodel-release-23 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\83295eb0cd9fa2b1952520d6c31dff77\workspace\transformed\lifecycle-viewmodel-release\res
-com.ahmadziya.notesapp-core-runtime-2.2.0-24 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\875df008496c4d93c8674f89f9a9789b\workspace\transformed\core-runtime-2.2.0\res
-com.ahmadziya.notesapp-material-ripple-release-25 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\882b7d330756403c8b810e89589d5fd0\workspace\transformed\material-ripple-release\res
-com.ahmadziya.notesapp-core-ktx-1.15.0-26 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\89e92824bf3b2794c6415ec6f3b444aa\workspace\transformed\core-ktx-1.15.0\res
-com.ahmadziya.notesapp-ui-unit-release-27 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\a31b9b35bbf133700075560aa67129aa\workspace\transformed\ui-unit-release\res
-com.ahmadziya.notesapp-runtime-release-28 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\a63eeb49b963a4965c19957f40004433\workspace\transformed\runtime-release\res
-com.ahmadziya.notesapp-savedstate-1.2.1-29 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\aa8c7458780e46f781af5cdddd781329\workspace\transformed\savedstate-1.2.1\res
-com.ahmadziya.notesapp-annotation-experimental-1.4.1-30 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\ae1ef11b8b37ae1f1a051097fee47d5e\workspace\transformed\annotation-experimental-1.4.1\res
-com.ahmadziya.notesapp-lifecycle-viewmodel-savedstate-2.8.7-31 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\b00d099519b95a0ba8a73d9589ca644f\workspace\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
-com.ahmadziya.notesapp-ui-tooling-data-release-32 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\b13a90d1814bf7228a24458980971508\workspace\transformed\ui-tooling-data-release\res
-com.ahmadziya.notesapp-foundation-layout-release-33 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\b581b8b748fd5c8c95b8178bb0fb2f2f\workspace\transformed\foundation-layout-release\res
-com.ahmadziya.notesapp-animation-core-release-34 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\b6c64dc6b26d086db8b08605a4536570\workspace\transformed\animation-core-release\res
-com.ahmadziya.notesapp-activity-ktx-1.9.3-35 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\bb7791ef6fec1a8dc0ba1f085934e498\workspace\transformed\activity-ktx-1.9.3\res
-com.ahmadziya.notesapp-ui-test-manifest-1.6.6-36 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\c1c032cdb5b3dedb3993e76c4ae6719c\workspace\transformed\ui-test-manifest-1.6.6\res
-com.ahmadziya.notesapp-material3-release-37 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\c47de3045eb5424431d9455aa5afca93\workspace\transformed\material3-release\res
-com.ahmadziya.notesapp-room-runtime-2.6.1-38 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\c5dec397623ceeb86319f977d6e95926\workspace\transformed\room-runtime-2.6.1\res
-com.ahmadziya.notesapp-material-icons-extended-release-39 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\c72cfab9939a61916ab0dad317a5c7bd\workspace\transformed\material-icons-extended-release\res
-com.ahmadziya.notesapp-ui-text-release-40 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\c97d1ca04a218d19369dc3301a6aef8e\workspace\transformed\ui-text-release\res
-com.ahmadziya.notesapp-core-1.15.0-41 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\ceeba2a7b114a5c46a103eb6b9884978\workspace\transformed\core-1.15.0\res
-com.ahmadziya.notesapp-activity-compose-1.9.3-42 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\d962acb1567e713193acdb0ff5bb4856\workspace\transformed\activity-compose-1.9.3\res
-com.ahmadziya.notesapp-customview-poolingcontainer-1.0.0-43 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\dc1d59d3ce978ba32d2c52875aa5e46b\workspace\transformed\customview-poolingcontainer-1.0.0\res
-com.ahmadziya.notesapp-lifecycle-runtime-release-44 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\eade6a2618125160df70e5eb8b957cf1\workspace\transformed\lifecycle-runtime-release\res
-com.ahmadziya.notesapp-material-icons-core-release-45 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\ed23908bf0bf4979a8da386bd2206afb\workspace\transformed\material-icons-core-release\res
-com.ahmadziya.notesapp-savedstate-ktx-1.2.1-46 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\fab0b38978c95e11d59ae9534e08cbfe\workspace\transformed\savedstate-ktx-1.2.1\res
-com.ahmadziya.notesapp-pngs-47 D:\NotesApp\app\build\generated\res\pngs\debug
-com.ahmadziya.notesapp-resValues-48 D:\NotesApp\app\build\generated\res\resValues\debug
-com.ahmadziya.notesapp-packageDebugResources-49 D:\NotesApp\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.ahmadziya.notesapp-packageDebugResources-50 D:\NotesApp\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.ahmadziya.notesapp-debug-51 D:\NotesApp\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.ahmadziya.notesapp-debug-52 D:\NotesApp\app\src\debug\res
-com.ahmadziya.notesapp-main-53 D:\NotesApp\app\src\main\res
+com.ahmadziya.notesapp-ui-test-manifest-1.6.6-0 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\020a222501705b8eba4f47c09830507b\workspace\transformed\ui-test-manifest-1.6.6\res
+com.ahmadziya.notesapp-material-ripple-release-1 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\03f6c8efc9ddf859d02243fe9bd9bfe6\workspace\transformed\material-ripple-release\res
+com.ahmadziya.notesapp-sqlite-framework-2.4.0-2 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\0a39013a32bd57fe1081c99973c5923d\workspace\transformed\sqlite-framework-2.4.0\res
+com.ahmadziya.notesapp-runtime-release-3 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\10e619330b6fb9fefe65b8033f4b543b\workspace\transformed\runtime-release\res
+com.ahmadziya.notesapp-ui-util-release-4 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\11cd64d2d399f19b1d79bf4518dd2a59\workspace\transformed\ui-util-release\res
+com.ahmadziya.notesapp-profileinstaller-1.3.1-5 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\148673de5c5a9a01dc470fe3b9f228bc\workspace\transformed\profileinstaller-1.3.1\res
+com.ahmadziya.notesapp-lifecycle-viewmodel-savedstate-2.8.7-6 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\1a90ae977dd8e91da7234658c866dfd3\workspace\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
+com.ahmadziya.notesapp-tracing-1.2.0-7 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\1fea983bb2158620bce0dc8cf71296dc\workspace\transformed\tracing-1.2.0\res
+com.ahmadziya.notesapp-ui-text-release-8 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\20a5594864894db3a1e826cf39122cc3\workspace\transformed\ui-text-release\res
+com.ahmadziya.notesapp-lifecycle-viewmodel-compose-release-9 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\22c8908e56d612da6158eaa1c23ef132\workspace\transformed\lifecycle-viewmodel-compose-release\res
+com.ahmadziya.notesapp-animation-release-10 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\3066d7154e8eae3ebe9ae763f2a25d00\workspace\transformed\animation-release\res
+com.ahmadziya.notesapp-activity-1.9.3-11 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\335b7021311d2a9be81648c2c96b3331\workspace\transformed\activity-1.9.3\res
+com.ahmadziya.notesapp-lifecycle-livedata-core-ktx-2.8.7-12 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\33f76fb013fad5cbee3bdada2817c18b\workspace\transformed\lifecycle-livedata-core-ktx-2.8.7\res
+com.ahmadziya.notesapp-lifecycle-runtime-release-13 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\3a974d406d342169e5f7bf9d913f9daf\workspace\transformed\lifecycle-runtime-release\res
+com.ahmadziya.notesapp-savedstate-ktx-1.2.1-14 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\3c494e43bda0cf3ef57393188b17b695\workspace\transformed\savedstate-ktx-1.2.1\res
+com.ahmadziya.notesapp-core-ktx-1.15.0-15 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\3c95b0a760ab1c76b0a9e593d1ae942a\workspace\transformed\core-ktx-1.15.0\res
+com.ahmadziya.notesapp-ui-graphics-release-16 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\40d0872afa8554732edbe5b073abb97a\workspace\transformed\ui-graphics-release\res
+com.ahmadziya.notesapp-core-runtime-2.2.0-17 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\444bdd6a649a1ad8ceb041761962fe33\workspace\transformed\core-runtime-2.2.0\res
+com.ahmadziya.notesapp-emoji2-1.3.0-18 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\4fcce5b3a72479d4e11d7595089cc0e7\workspace\transformed\emoji2-1.3.0\res
+com.ahmadziya.notesapp-activity-compose-1.9.3-19 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\581e16981358bbef75fc75cd3db9aad8\workspace\transformed\activity-compose-1.9.3\res
+com.ahmadziya.notesapp-ui-unit-release-20 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\614d078fd699636b86ffd2fc9bf02a04\workspace\transformed\ui-unit-release\res
+com.ahmadziya.notesapp-foundation-layout-release-21 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\62e5281ffe0e02202024fd077e2fa0ae\workspace\transformed\foundation-layout-release\res
+com.ahmadziya.notesapp-savedstate-1.2.1-22 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\6b338698c09d53e373c5219292883334\workspace\transformed\savedstate-1.2.1\res
+com.ahmadziya.notesapp-lifecycle-livedata-ktx-2.8.7-23 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\6f87a26398f8b7b8b6e3bda3b24b4dd1\workspace\transformed\lifecycle-livedata-ktx-2.8.7\res
+com.ahmadziya.notesapp-material-icons-core-release-24 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\75c35a6360bcdc885efd58229d60ea02\workspace\transformed\material-icons-core-release\res
+com.ahmadziya.notesapp-room-runtime-2.6.1-25 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\787e417620cc4a5b07e96087c6785674\workspace\transformed\room-runtime-2.6.1\res
+com.ahmadziya.notesapp-ui-geometry-release-26 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\7f31b37f75848ec5bc5e36c8b8944ba0\workspace\transformed\ui-geometry-release\res
+com.ahmadziya.notesapp-paging-common-release-27 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\88b9184c7e0abe6a780e0a527fa720ba\workspace\transformed\paging-common-release\res
+com.ahmadziya.notesapp-material-icons-extended-release-28 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\9306633ce786c4945de08cea3bc44c49\workspace\transformed\material-icons-extended-release\res
+com.ahmadziya.notesapp-room-ktx-2.6.1-29 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\9cd366c16b3be9aca5f9dc8502d482ae\workspace\transformed\room-ktx-2.6.1\res
+com.ahmadziya.notesapp-runtime-saveable-release-30 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\9d052c61cc24fcbe9c77d96e94b8ea94\workspace\transformed\runtime-saveable-release\res
+com.ahmadziya.notesapp-material3-release-31 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\9efb12c7ee0ac27bb23030082a848f8b\workspace\transformed\material3-release\res
+com.ahmadziya.notesapp-ui-tooling-data-release-32 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\a19d9e011c4f884764e77614d667e2f3\workspace\transformed\ui-tooling-data-release\res
+com.ahmadziya.notesapp-core-1.15.0-33 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\a4772f2e060986847c613f9780f6c7d5\workspace\transformed\core-1.15.0\res
+com.ahmadziya.notesapp-customview-poolingcontainer-1.0.0-34 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\a48663fa4447db90bd4561b6228e481f\workspace\transformed\customview-poolingcontainer-1.0.0\res
+com.ahmadziya.notesapp-startup-runtime-1.1.1-35 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\a9e33f62f952ecc318f693f15fa83ee6\workspace\transformed\startup-runtime-1.1.1\res
+com.ahmadziya.notesapp-sqlite-2.4.0-36 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\ac8001b636abc21e9cec7cd9b05a8c20\workspace\transformed\sqlite-2.4.0\res
+com.ahmadziya.notesapp-lifecycle-runtime-ktx-release-37 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\b6c8e11183dc4991db40a3f3d3722d0d\workspace\transformed\lifecycle-runtime-ktx-release\res
+com.ahmadziya.notesapp-lifecycle-viewmodel-release-38 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\b80c9e455945047adbfbe6767c792ac8\workspace\transformed\lifecycle-viewmodel-release\res
+com.ahmadziya.notesapp-lifecycle-viewmodel-ktx-2.8.7-39 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\b866b10a8c1024032e0205388f89c21b\workspace\transformed\lifecycle-viewmodel-ktx-2.8.7\res
+com.ahmadziya.notesapp-material-release-40 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\b8f7fe50f93c8f19b316ada10f6e1c2d\workspace\transformed\material-release\res
+com.ahmadziya.notesapp-lifecycle-livedata-2.8.7-41 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\b93c8ed55de4af18d931194f60c22e34\workspace\transformed\lifecycle-livedata-2.8.7\res
+com.ahmadziya.notesapp-paging-runtime-3.3.2-42 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\bf7b5ffa64acc0697f26e1115c09a353\workspace\transformed\paging-runtime-3.3.2\res
+com.ahmadziya.notesapp-ui-tooling-release-43 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\c9613eea109d23038fb0e088cb18e985\workspace\transformed\ui-tooling-release\res
+com.ahmadziya.notesapp-activity-ktx-1.9.3-44 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\cace57f9abd1ee0a03eb74ce602d4442\workspace\transformed\activity-ktx-1.9.3\res
+com.ahmadziya.notesapp-animation-core-release-45 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\d65cf00ad549b02794c2434f58c8298a\workspace\transformed\animation-core-release\res
+com.ahmadziya.notesapp-paging-compose-release-46 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\d699beaa4f4cce3f2b4468a43c4caeff\workspace\transformed\paging-compose-release\res
+com.ahmadziya.notesapp-annotation-experimental-1.4.1-47 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\d8b7bf3d9e6fddc6495b63c336ff0f77\workspace\transformed\annotation-experimental-1.4.1\res
+com.ahmadziya.notesapp-recyclerview-1.2.1-48 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\dafe3cf90bfd3b7674f8a9d94350d986\workspace\transformed\recyclerview-1.2.1\res
+com.ahmadziya.notesapp-ui-release-49 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\e3a1beff5bb2cb29c03f4ed8614774a7\workspace\transformed\ui-release\res
+com.ahmadziya.notesapp-lifecycle-process-2.8.7-50 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\ee3b33f766730e43da29043d3f0d7b5b\workspace\transformed\lifecycle-process-2.8.7\res
+com.ahmadziya.notesapp-lifecycle-livedata-core-2.8.7-51 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\f4830e79d9b6a15a763c52a4013e7501\workspace\transformed\lifecycle-livedata-core-2.8.7\res
+com.ahmadziya.notesapp-ui-tooling-preview-release-52 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\f5ea78035a18a0fccb7426f821c5b76d\workspace\transformed\ui-tooling-preview-release\res
+com.ahmadziya.notesapp-foundation-release-53 C:\Users\Ahmad Ziya\.gradle\caches\9.3.1\transforms\fda9364c67abdd76c8ba1f718b1413ef\workspace\transformed\foundation-release\res
+com.ahmadziya.notesapp-pngs-54 D:\NotesApp\app\build\generated\res\pngs\debug
+com.ahmadziya.notesapp-resValues-55 D:\NotesApp\app\build\generated\res\resValues\debug
+com.ahmadziya.notesapp-packageDebugResources-56 D:\NotesApp\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.ahmadziya.notesapp-packageDebugResources-57 D:\NotesApp\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.ahmadziya.notesapp-debug-58 D:\NotesApp\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.ahmadziya.notesapp-debug-59 D:\NotesApp\app\src\debug\res
+com.ahmadziya.notesapp-main-60 D:\NotesApp\app\src\main\res
